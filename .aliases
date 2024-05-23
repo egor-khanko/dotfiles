@@ -1,0 +1,18 @@
+alias aliases="$EDITOR $ALIASES_PATH"
+alias zshrc="$EDITOR ~/.zshrc"
+
+alias projects="cd $HOME/Documents/projects"
+alias work="cd $HOME/Documents/work/viclarity/viclaritysupport"
+
+alias falcon="bundle exec falcon"
+alias fs="falcon serve"
+alias rspec="bundle exec rspec"
+
+alias be="bundle exec"
+alias spec="be bin/rspec"
+
+alias brightness="sudo ddcutil --display 1 setvcp 10"
+
+alias open="xdg-open"
+
+alias dive="docker run -ti --rm  -v /var/run/docker.sock:/var/run/docker.sock wagoodman/dive"

@@ -1,0 +1,14 @@
+ruby 3.3.1
+
+rust 1.76.0
+java openjdk-21
+erlang 26
+elixir 1.16.2
+node lts
+bun 1.1.6
+clojure 1.11.3.1463
+
+packer 1.10.2
+gcloud 470.0.0
+awscli 2.15.44
+act 0.2.62
