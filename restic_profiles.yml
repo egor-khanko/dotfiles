@@ -1,0 +1,19 @@
+version: "1"
+
+default:
+  repository: "sftp:egor@nas.psalmoteka.internal:/home/Backups/workbook"
+  password-file: "password.txt"
+
+  backup:
+    schedule-permission: system
+    no-error-on-warning: true
+    schedule-ignore-on-battery: true
+    schedule-after-network-online: true
+    verbose: true
+    source:
+      - "/home/egor/Desktop"
+      - "/home/egor/Documents"
+      - "/home/egor/Music"
+      - "/home/egor/Pictures"
+      - "/home/egor/Videos"
+    schedule: "daily"
